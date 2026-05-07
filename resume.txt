@@ -1,0 +1,37 @@
+﻿Tshepiso Tlhong
+Software Developer
+Phone: +27 658493253 | Email: tlhongtshepiso2@gmail.com
+Links: GitHub | LinkedIn
+
+
+Professional Summary
+Dedicated Full Stack Software Engineer with a strong background in developing and maintaining robust web applications. Experienced in the full software development lifecycle, including upgrading existing systems and implementing full-stack solutions. Proven ability to collaborate in team environments to deliver high-quality software.
+
+
+Technical Skills
+* Programming Languages: Python, JavaScript, Java
+* Databases & SQL: MySQL, SQLite, NoSQL, Redis
+* Backend Development: Flask, Django
+* Frontend Development: React.js, HTML, CSS
+* DevOps & Tools: Git, GitHub, Linux, Debugging
+
+
+Professional Experience
+Full Stack Software Engineer
+* Developed and full-stack web applications: Bank Comparison App.
+* Demonstrated strong collaborative skills in team-based software development environments, focusing on software design and version control.
+* Implemented best practices in code documentation and system upgrades to ensure software longevity and performance.
+
+
+Key Projects
+Bank Comparison App
+* Created using Python, Flask, React, and MySQL
+* Collaborated in a team of 4 to develop a comprehensive bank package comparison platform.
+* Implemented feature-rich web application enabling users to easily compare banking services.
+* Utilized modern web development technologies to create an intuitive user interface.
+
+
+Education
+* Software Engineering Certification, African Leadership X (ALX), 2023-2025
+* Software Engineering Diploma, WethinkCode_ ,2025-Present
+* High School, Hoerskool Die Burger

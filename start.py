@@ -5,13 +5,28 @@ class Start:
         pass
 
     
-    def startMenu(self):
+    def startMenu(self) -> int :
         print('''
         Welcome to Resume Builder.\n
         1. Build ATS resume
         2. Update your resume 
         ''')
-        start  = input(" > ")
-        return start
+
+        while True:
+            start  = int(input(" > "))
+
+            if start == 1:
+                return start
+            
+            elif start == 2:
+                return start
+            
+            else:
+                print("Choose 1 or 2")
+                print('''
+        1. Build ATS resume
+        2. Update your resume
+''')
+
 
 
