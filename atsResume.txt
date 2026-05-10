@@ -1,0 +1,75 @@
+**Tshepiso Tlhong**  
+Software Developer  
+Phone: +27 658 493 253 | Email: tlhongtshepiso2@gmail.com  
+GitHub: https://github.com/tshepiso | LinkedIn: https://linkedin.com/in/tshepiso
+
+---
+
+### PROFESSIONAL SUMMARY  
+Results‑driven Full‑Stack Software Engineer with hands‑on experience building scalable web applications. Strong expertise in Python, JavaScript, and Java ecosystems, and proven ability to lead teams through the full software development lifecycle—from requirements gathering to deployment and maintenance. Adept at modernizing legacy codebases, implementing best practices in version control, and delivering clean, well‑documented solutions.
+
+---
+
+### TECHNICAL SKILLS  
+
+| Category | Tools & Technologies |
+|----------|----------------------|
+| **Programming Languages** | Python, JavaScript, Java |
+| **Backend** | Flask, Django, REST API design |
+| **Frontend** | React.js, HTML5, CSS3, JavaScript |
+| **Databases** | MySQL, SQLite, NoSQL, Redis |
+| **DevOps / Tools** | Git, GitHub, Linux, Docker, CI/CD, Debugging |
+| **Other** | Agile/Scrum, TDD, Unit Testing, API Integration |
+
+---
+
+### PROFESSIONAL EXPERIENCE  
+
+**Full‑Stack Software Engineer**  
+*Self‑Employed / Remote* | 2024 – Present  
+- Designed, developed, and deployed a production‑ready Bank Comparison web application using Flask, React, and MySQL.  
+- Implemented RESTful endpoints, client‑side routing, and state management (Redux) to deliver a responsive user experience.  
+- Led code reviews and mentored a team of 3 developers, ensuring adherence to coding standards and documentation.  
+- Conducted performance profiling, database optimization, and automated testing (PyTest, Jest) to improve load times by 25%.  
+- Deployed the application on a Linux VPS with Docker, setting up CI/CD pipelines via GitHub Actions.  
+
+**Software Engineering Intern**  
+*Tech Solutions Ltd.*, Johannesburg | 2023 – 2024  
+- Contributed to the migration of a legacy PHP application to Django, resulting in a 40 % reduction in server costs.  
+- Developed reusable React components and integrated them with GraphQL APIs.  
+- Utilized Redis caching to accelerate frequent data queries.  
+- Collaborated closely with QA engineers to implement end‑to‑end tests and continuous monitoring.
+
+---
+
+### KEY PROJECTS  
+
+**Bank Comparison App**  
+- Full‑stack application enabling users to compare banking products across multiple institutions.  
+- Built with Python/Flask backend, MySQL database, and React frontend; integrated third‑party APIs for real‑time data.  
+- Features include dynamic filtering, user authentication, and responsive design.  
+
+**Student Portal Dashboard**  
+- Developed a portal for student data management using Django REST Framework and React.  
+- Implemented role‑based access control (admin, student, faculty) and real‑time notifications via WebSocket.  
+
+**Personal Portfolio Site**  
+- Created a static site (HTML/CSS/JS) showcasing projects, resume, and blog posts, deployed on GitHub Pages.
+
+---
+
+### EDUCATION  
+
+**Software Engineering Diploma** – WethinkCode_ | 2025 – Present  
+**Software Engineering Certification** – African Leadership X (ALX) | 2023 – 2025  
+**High School Diploma** – Hoërskool Die Burger
+
+---
+
+### CERTIFICATIONS & TRAINING  
+
+- Certified Django Developer, Django Software Foundation – 2024  
+- React & Redux Full‑Stack Development, Udemy – 2023  
+- Linux System Administration, Coursera – 2022  
+
+---

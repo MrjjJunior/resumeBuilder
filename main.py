@@ -1,6 +1,8 @@
 from start import Start
 from atsResumeBuilder import ATSResume
 from updateResume import UpadateResume
+import os 
+
 
 def main():
     start = Start()
@@ -8,8 +10,10 @@ def main():
 
     if selection == 1:
 
-        ats = ATSResume()
-        print(selection)
+        ats = ATSResume("./resume.txt")
+        ats.readResume()
+        ats.makeATSResume()
+        ats.writeToFile()
 
     elif selection == 2:
         print("Make sure your resume is in docx or txt format\n" \
