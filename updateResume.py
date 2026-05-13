@@ -1,24 +1,25 @@
 
-
-
 class UpadateResume:
 
     def __init__ (self, resume):
         self.resume = resume
 
-    
+
     def readResume(self):
         
         self.content = []
 
-        with open(self.resume) as f:
-            for line in f:
-                if line == "":
-                    continue
-                else:
-                    self.content.append(line)
-        
-    
+        try:
+            with open(self.resume) as f:
+                for line in f:
+                    if line == "":
+                        continue
+                    else:
+                        self.content.append(line)
+        except FileNotFoundError:
+            print("Resume was not file. Make sure it's an absolute path and a txt file")
+
+
     def addResumeToRepo(self):
         with open("resume.txt", "w") as file:
             file.write("")

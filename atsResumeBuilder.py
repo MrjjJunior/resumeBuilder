@@ -25,7 +25,10 @@ class ATSResume:
         base_url="https://api.groq.com/openai/v1",
         )
 
-        prompt = f"Take a look at this resume {self.content_of_resume}, make improve it and make it ATS friendly. JUST RESPOND WITH THE REUSME"
+        prompt = f"""Take a look at this resume {self.content_of_resume}, make improve it and make it ATS friendly.
+        Here is the {self.companyName} you applying to. You are apply for the {self.position}. And here are the 
+        requirements: {self.requirments}
+        JUST RESPOND WITH THE REUSME"""
 
         response = client.responses.create(
             input=prompt,
@@ -39,6 +42,9 @@ class ATSResume:
                 file.writelines(line)
 
 
-
-
+    def jobListingInfo(self):
+        self.companyName = input("\tCompany Name\n\t> ")
+        self.position = input("\tPosition\n\t\> ")
+        self.description = input("\tDescription\n\t> ")
+        self.requirements = input("\tRequirements\n\t> ")
 

@@ -2,30 +2,37 @@ from start import Start
 from atsResumeBuilder import ATSResume
 from updateResume import UpadateResume
 import os 
-
+import sys
 
 def main():
-    start = Start()
-    selection = start.startMenu()
+    try:
+        start = Start()
+        selection = start.startMenu()
 
-    if selection == 1:
+        if selection == 1:
 
-        ats = ATSResume("./resume.txt")
-        ats.readResume()
-        ats.makeATSResume()
-        ats.writeToFile()
+            ats = ATSResume("./resume.txt")
+            ats.readResume()
+            ats.jobListingInfo()
+            ats.makeATSResume()
+            ats.writeToFile()
 
-    elif selection == 2:
-        print("Make sure your resume is in docx or txt format\n" \
-        "input the absolute path")
+        elif selection == 2:
+            print("Make sure your resume is in docx or txt format\n" \
+            "input the absolute path")
 
 
-        path = input("\nPath: ")
-        
-        uploadResume = UpadateResume(path)
-        
-        uploadResume.readResume()
-        uploadResume.addResumeToRepo()
+            path = input("\nPath: ")
+            
+            uploadResume = UpadateResume(path)
+            
+            uploadResume.readResume()
+            uploadResume.addResumeToRepo()
+            main()
+    except KeyboardInterrupt:
+        sys.exit("Goodbye and good luck on your journey ;)")        
+
+
 
 if __name__ == "__main__":
     main()
