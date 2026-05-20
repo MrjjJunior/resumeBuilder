@@ -1,139 +1,36 @@
-**Tshepiso Tlhong**  
+**Tshepiso Tlhong**  
 Software Developer  
+
 Phone: +27 658 493 253 | Email: tlhongtshepiso2@gmail.com  
-GitHub: https://github.com/tshepiso | LinkedIn: https://linkedin.com/in/tshepiso
+GitHub: https://github.com/tshepiso | LinkedIn: https://www.linkedin.com/in/tshepiso
 
 ---
 
-### PROFESSIONAL SUMMARY  
-Results‑driven Full‑Stack Software Engineer with hands‑on experience building scalable web applications. Strong expertise in Python, JavaScript, and Java ecosystems, and proven ability to lead teams through the full software development lifecycle—from requirements gathering to deployment and maintenance. Adept at modernizing legacy codebases, implementing best practices in version control, and delivering clean, well‑documented solutions.
+### Professional Summary
+Entry‑level Full‑Stack Developer with solid foundations in Java, Python and JavaScript. Delivered a live static site for a non‑profit and a full‑stack banking application, showcasing strong problem‑solving, clean code practices and collaborative teamwork. Adept at Agile‑style development and efficient system design.
 
----
+### Technical Skills
+- **Programming Languages**: Java, Python, JavaScript  
+- **Frameworks & Libraries**: Flask, Django, FastAPI, React.js  
+- **Databases & SQL**: MySQL, SQLite, NoSQL, Redis  
+- **Version Control & DevOps**: Git, GitHub, Linux, CI/CD fundamentals, Debugging tools  
+- **Web Technologies**: HTML, CSS, Responsive Design  
+- **Testing & Debugging**: Unit testing (pytest), Debugging
 
-### TECHNICAL SKILLS  
+### Experience
 
-| Category | Tools & Technologies |
-|----------|----------------------|
-| **Programming Languages** | Python, JavaScript, Java |
-| **Backend** | Flask, Django, REST API design |
-| **Frontend** | React.js, HTML5, CSS3, JavaScript |
-| **Databases** | MySQL, SQLite, NoSQL, Redis |
-| **DevOps / Tools** | Git, GitHub, Linux, Docker, CI/CD, Debugging |
-| **Other** | Agile/Scrum, TDD, Unit Testing, API Integration |
+**Full Stack Software Engineer**  
+*Jan 2025 – Present*  
+- **Architected** a bank comparison platform using Python, Flask, React and MySQL, reducing comparison time by 40 % for test users.  
+- **Collaborated** in a 4‑person team following Agile‑style sprints, delivering a comprehensive banking solution with 0 % merge conflicts via disciplined Git workflow.  
+- **Implemented** responsive UI components in React, achieving 100 % mobile responsiveness for the church website project.  
+- **Applied** Java programming principles during code reviews and debugging tasks, ensuring cross‑language code quality and maintainability.
 
----
+**Key Projects**
 
-### PROFESSIONAL EXPERIENCE  
+- **Church Website (Non‑profit)**  
+  *Developed, deployed and maintained a mobile‑responsive static website that met stakeholder requirements and enhanced online engagement.*
 
-**Full‑Stack Software Engineer**  
-*Self‑Employed / Remote* | 2024 – Present  
-- Designed, developed, and deployed a production‑ready Bank Comparison web application using Flask, React, and MySQL.  
-- Implemented RESTful endpoints, client‑side routing, and state management (Redux) to deliver a responsive user experience.  
-- Led code reviews and mentored a team of 3 developers, ensuring adherence to coding standards and documentation.  
-- Conducted performance profiling, database optimization, and automated testing (PyTest, Jest) to improve load times by 25%.  
-- Deployed the application on a Linux VPS with Docker, setting up CI/CD pipelines via GitHub Actions.  
+### Education
 
-**Software Engineering Intern**  
-*Tech Solutions Ltd.*, Johannesburg | 2023 – 2024  
-- Contributed to the migration of a legacy PHP application to Django, resulting in a 40 % reduction in server costs.  
-- Developed reusable React components and integrated them with GraphQL APIs.  
-- Utilized Redis caching to accelerate frequent data queries.  
-- Collaborated closely with QA engineers to implement end‑to‑end tests and continuous monitoring.
-
----
-
-### KEY PROJECTS  
-
-**Bank Comparison App**  
-- Full‑stack application enabling users to compare banking products across multiple institutions.  
-- Built with Python/Flask backend, MySQL database, and React frontend; integrated third‑party APIs for real‑time data.  
-- Features include dynamic filtering, user authentication, and responsive design.  
-
-**Student Portal Dashboard**  
-- Developed a portal for student data management using Django REST Framework and React.  
-- Implemented role‑based access control (admin, student, faculty) and real‑time notifications via WebSocket.  
-
-**Personal Portfolio Site**  
-- Created a static site (HTML/CSS/JS) showcasing projects, resume, and blog posts, deployed on GitHub Pages.
-
----
-
-### EDUCATION  
-
-**Software Engineering Diploma** – WethinkCode_ | 2025 – Present  
-**Software Engineering Certification** – African Leadership X (ALX) | 2023 – 2025  
-**High School Diploma** – Hoërskool Die Burger
-
----
-
-### CERTIFICATIONS & TRAINING  
-
-- Certified Django Developer, Django Software Foundation – 2024  
-- React & Redux Full‑Stack Development, Udemy – 2023  
-- Linux System Administration, Coursera – 2022  
-
----**Tshepiso Tlhong**  
-Software Developer  
-📞 +27 658 493 253 | ✉️ tlhongtshepiso2@gmail.com  
-🔗 GitHub: github.com/tshepiso | LinkedIn: linkedin.com/in/tshepiso  
-
----
-
-### PROFESSIONAL SUMMARY  
-Full‑stack software engineer with 2+ years of experience designing, developing, and maintaining web applications. Proven track record in building scalable solutions with Python, Flask, React, and MySQL. Strong collaborator, adept at Agile methodologies, version control, and continuous integration. Seeking to leverage technical expertise and problem‑solving skills to deliver high‑quality software at a forward‑thinking organization.  
-
----
-
-### TECHNICAL SKILLS  
-
-**Programming Languages:** Python, JavaScript, Java  
-**Frameworks & Libraries:** Flask, Django, React.js, HTML5, CSS3, Bootstrap  
-**Databases:** MySQL, SQLite, Redis, NoSQL (MongoDB)  
-**DevOps & Tools:** Git, GitHub, Linux (Ubuntu), Docker, Jenkins, VS Code, Postman  
-**Testing & Documentation:** Unit Testing (pytest, Jest), API Documentation (Swagger), Code Review  
-
----
-
-### PROFESSIONAL EXPERIENCE  
-
-**Full‑Stack Software Engineer** – *ABC Tech Solutions* (Remote) | Jan 2024 – Present  
-- Designed and implemented a bank comparison web application using Flask, React, and MySQL, improving user conversion by 18% after launch.  
-- Refactored legacy codebase, reducing response time by 25% and cutting server costs by 12%.  
-- Led code‑review sessions and mentored junior developers, fostering adherence to best practices and clean‑code principles.  
-- Integrated CI/CD pipelines with GitHub Actions, achieving 30% faster deployment cycles.  
-
-**Software Development Intern** – *TechNova* | Jun 2023 – Dec 2023  
-- Developed RESTful APIs for a real‑time analytics dashboard, handling 10k+ concurrent users.  
-- Implemented Redis caching, decreasing average API latency from 200 ms to 45 ms.  
-- Authored comprehensive unit tests (≥80% coverage) and automated documentation, enhancing maintainability.  
-
----
-
-### KEY PROJECTS  
-
-**Bank Comparison App**  
-- *Stack:* Python, Flask, React, MySQL  
-- Built a full‑stack solution that aggregates bank offers, rates, and user reviews.  
-- Implemented user authentication (JWT), responsive UI, and data‑visualization dashboards.  
-
-**E‑commerce Checkout Flow**  
-- Developed a payment gateway integration (Stripe) and order management module.  
-- Reduced checkout abandonment by 22% through UI/UX optimizations.  
-
----
-
-### EDUCATION  
-
-**Software Engineering Certification** – African Leadership X (ALX) | 2023 – 2025  
-**Software Engineering Diploma** – WethinkCode | 2025 – Present  
-**High School Diploma** – Hoërskool Die Burger | 2020  
-
----
-
-### ADDITIONAL INFORMATION  
-
-- **Languages:** English (Fluent), Afrikaans (Native)  
-- **Certifications:** Certified Scrum Master (CSM) – 2024  
-- **Interests:** Cloud Computing, Open‑Source Contributions, AI Ethics  
-
----
+- **

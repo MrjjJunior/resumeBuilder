@@ -25,26 +25,43 @@ class ATSResume:
         base_url="https://api.groq.com/openai/v1",
         )
 
-        prompt = f"""Take a look at this resume {self.content_of_resume}, make improve it and make it ATS friendly.
-        Here is the {self.companyName} you applying to. You are apply for the {self.position}. And here are the 
-        requirements: {self.requirments}
-        JUST RESPOND WITH THE REUSME"""
+        prompt = f"""
+        Task: Using the {self.content_of_resume} and the {self.description} , generate a tailored, ATS-friendly CV in plain text format.
+        Instructions:
+        Keyword Analysis: Identify the top 10 most important technical skills, tools, and soft skills mentioned in the {self.description}  and {self.requirements}. Ensure these keywords appear naturally in the "Technical Skills" and "Professional Experience" sections.
+        Impact-First Bullet Points: Rewrite existing experience into the "Action Verb + Task + Result" formula. If the Master CV {self.resume} mentions "Developed a bank app," and the {self.description} emphasizes "database optimization,"
+
+        Professional Summary: Write a 3-line summary that mirrors the "Years of Experience" and "Primary Tech Stack" requested in the {self.description}.
+        ATS Formatting Rules:
+        Use standard headers (Professional Summary, Technical Skills, Experience, Education).
+        Avoid tables, columns, or graphics.
+        Use simple bullet points.
+
+        Constraint: Do not hallucinate or invent experiences not found in the Master_CV {self.resume}. If a required skill in the {self.description} is missing from the Master CV, do not add it; instead, emphasize related transferable skills.
+        Do not use emoji's.
+        Input Data:
+        Master CV: {self.content_of_resume}
+        Job Description: {self.description}
+"""
 
         response = client.responses.create(
             input=prompt,
+            instructions= "Role: You are an expert Technical Career Coach and ATS (Applicant Tracking System) Optimization Specialist. Your goal is to rewrite a candidate's Master CV to perfectly align with a specific Job Description while maintaining 100percent honesty and professional integrity. Only respond with the CV",
             model="openai/gpt-oss-20b",
         )
         self.newResume = response.output_text
+        # print(self.newResume)
 
     def writeToFile(self):
-        with open("atsResume.txt", "a") as file:
+        with open("atsResume.txt", "w") as file:
             for line in self.newResume:
+                # print(line)
                 file.writelines(line)
 
 
     def jobListingInfo(self):
         self.companyName = input("\tCompany Name\n\t> ")
-        self.position = input("\tPosition\n\t\> ")
+        self.position = input("\tPosition\n\t> ")
         self.description = input("\tDescription\n\t> ")
         self.requirements = input("\tRequirements\n\t> ")
 
