@@ -7,12 +7,23 @@ import sys
 
 
 class ATSResume:
-
+    """
+    Builds an ATS friendly resume using AI.
+    """
     def __init__(self, resume):
+        """
+        Args:
+            resume (str): the path of where the resume is located.
+        """
         self.resume = Path(resume)
 
 
     def readResume(self):
+        # String is immutable so you are creating a new string everytime you add to.
+        # You are using a lot of memory 
+        """ 
+            Reads the resum and adds it to a string. 
+        """
         self.content_of_resume = ""
         with open(self.resume, "r") as file:
             for line in file:
@@ -20,6 +31,9 @@ class ATSResume:
 
 
     def makeATSResume(self):
+        """
+        Creates a ATS friendly resume using  OPENAI
+        """
         client = OpenAI(
         api_key=os.environ.get("GROQ_API_KEY"),
         base_url="https://api.groq.com/openai/v1",
@@ -53,13 +67,18 @@ class ATSResume:
         # print(self.newResume)
 
     def writeToFile(self):
+        """
+        loads content into file and save the file in the root directory.
+        """
         with open("atsResume.txt", "w") as file:
             for line in self.newResume:
-                # print(line)
                 file.writelines(line)
 
 
     def jobListingInfo(self):
+        """
+        Gets Job Lidsting information.
+        """
         self.companyName = input("\tCompany Name\n\t> ")
         self.position = input("\tPosition\n\t> ")
         self.description = input("\tDescription\n\t> ")
