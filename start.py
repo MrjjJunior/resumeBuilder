@@ -32,7 +32,7 @@ class Start:
                     case 2:
                         return start
                     case 3:
-                        sys.exit()
+                        return sys.exit()
                     case _:
                         print("Choose 1 or 2")
                         print('''
