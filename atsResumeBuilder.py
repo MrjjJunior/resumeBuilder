@@ -1,8 +1,11 @@
 
 from openai import OpenAI
 from pathlib import Path
+from createDoc import Doc
+from docx import Document
 import os
 import sys
+import datetime as dt
 
 
 
@@ -15,6 +18,7 @@ class ATSResume:
         Args:
             resume (str): the path of where the resume is located.
         """
+        self.document = Document()
         self.resume = Path(resume)
 
 
@@ -60,7 +64,7 @@ class ATSResume:
 
         response = client.responses.create(
             input=prompt,
-            instructions= "Role: You are an expert Technical Career Coach and ATS (Applicant Tracking System) Optimization Specialist. Your goal is to rewrite a candidate's Master CV to perfectly align with a specific Job Description while maintaining 100percent honesty and professional integrity. Only respond with the CV",
+            instructions= "Role: You are an expert Technical Career Coach and ATS (Applicant Tracking System) Optimization Specialist. Your goal is to rewrite a candidate's Master CV to perfectly align with a specific Job Description while maintaining 100percent honesty and professional integrity. Only respond with the CV. When writing cv write it in html tags. ",
             model="openai/gpt-oss-20b",
         )
         self.newResume = response.output_text
@@ -70,17 +74,49 @@ class ATSResume:
         """
         loads content into file and save the file in the root directory.
         """
-        with open("atsResume.txt", "w") as file:
+        
+        self.date = str(dt.datetime.today()).split(" ")
+        directory = f"resumes/.logs/{self.date[0]}/"
+        if os.path.isdir(directory) !=  True :
+            os.makedirs(os.path.dirname(directory), exist_ok=True)
+            os.makedirs(os.path.dirname(f"resumes/{self.date[0]}/"))
+
+        with open(f"resumes/.logs/{self.date[0]}/{self.companyName}-{self.position}.txt", "w") as file:
             for line in self.newResume:
                 file.writelines(line)
 
+        self.txt2Doc(f"resumes/.logs/{self.date[0]}/{self.companyName}-{self.position}.txt")
+
+
+    def txt2Doc(self, resume: str) -> Document:
+        """
+        Method rconverts resume.txt to a docment format 
+
+        Args: 
+            resume (str): Is the resume in txt format.
+        Returns:
+            Docuent: Will return resume in a document format.
+        """
+        with open(resume) as file:
+            for line in file:
+                if line.startswith("<h1>"):
+                    self.document.add_heading(line.replace("<h1>", "").replace("</h1>", "").strip(), 1)                     
+                elif line.startswith("<h2>"):
+                    self.document.add_heading(line.replace("<h2>","").relpace("</h2>","").strip(), 1)
+                elif line.startswith("<p>"):
+                    self.document.add_paragraph(line.replace("<p>", "").replace("</p>", "").strip())
+                elif line.startswith("<li>"):
+                    self.document.add_paragraph(line.replace("<li>", "-").replace("</li>", "").strip())
+                else:
+                    self.document.add_paragraph(line.strip())
+        
+        self.document.save(f"resumes/{self.date[0]}/{self.companyName}-{self.position}.docx")
 
     def jobListingInfo(self):
         """
-        Gets Job Lidsting information.
+        Gets Job Listing information.
         """
         self.companyName = input("\tCompany Name\n\t> ")
         self.position = input("\tPosition\n\t> ")
         self.description = input("\tDescription\n\t> ")
         self.requirements = input("\tRequirements\n\t> ")
-

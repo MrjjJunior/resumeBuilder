@@ -1,0 +1,46 @@
+<html>
+<head>
+  <title>Tshepiso Tlhong – CV</title>
+</head>
+<body>
+  <h1>Tshepiso Tlhong</h1>
+  <p>Phone: +27 658 493 253 | Email: <a href="mailto:tlhongtshepiso2@gmail.com">tlhongtshepiso2@gmail.com</a></p>
+  <p>GitHub | LinkedIn</p>
+
+  <h2>Professional Summary</h2>
+  <p>Recent full‑stack developer with 1+ year of hands‑on experience building scalable web applications using Python (Flask, Django, FastAPI) and React.js. Adept at designing database‑driven features, delivering clean code, and optimizing system performance.</p>
+
+  <h2>Technical Skills</h2>
+  <ul>
+    <li>Programming Languages: Python, JavaScript, Java</li>
+    <li>Frameworks: Flask, Django, FastAPI, React.js</li>
+    <li>Databases: MySQL, SQLite, NoSQL, Redis</li>
+    <li>Tools & DevOps: Git, GitHub, Linux, CI/CD, Debugging</li>
+    <li>Hosting & Deployment: Render, GitHub Pages, SA webhost</li>
+  </ul>
+
+  <h2>Experience</h2>
+  <h3>Full Stack Software Engineer</h3>
+  <p>Bank Comparison App – WethinkCode Internship</p>
+  <ul>
+    <li>Designed and implemented a full‑stack banking platform with Flask, React, and MySQL, reducing package‑comparison time by 40% for test users.</li>
+    <li>Co‑authored RESTful APIs and front‑end components, improving feature delivery speed by 30% through modular architecture.</li>
+    <li>Maintained version control with Git and GitHub, preventing merge conflicts and ensuring 100 % build stability across sprint cycles.</li>
+    <li>Collaborated with a cross‑functional team of 4 to gather requirements, conduct code reviews, and perform unit and integration testing.</li>
+  </ul>
+
+  <h3>Key Projects</h3>
+  <h4>Church Website</h4>
+  <ul>
+    <li>Created a responsive static site for a church organization using HTML, CSS, and JavaScript, achieving full mobile compatibility.</li>
+    <li>Managed stakeholder input and iterated designs based on user feedback, delivering the site on schedule.</li>
+  </ul>
+
+  <h2>Education</h2>
+  <ul>
+    <li>Software Engineering Diploma, WethinkCode – Expected Dec 2026</li>
+    <li>Software Engineering Certification, African Leadership X – Jan 2025</li>
+    <li>High School, Hoerskool Die Burger</li>
+  </ul>
+</body>
+</html>

@@ -18,4 +18,11 @@ class Doc:
         Returns:
             Docuent: Will return resume in a document format.
         """
-        return self.document
+        with open(resume) as file:
+            for line in file:
+                if line.startswith("<h1>"):
+                    self.document.add_heading(line.replace("<h1>", "").replace("</h1>", "").strip(), 1)                     
+                else:
+                    self.document.add_paragraph(line.strip())
+
+        self.document.save("docs/demo.docx")

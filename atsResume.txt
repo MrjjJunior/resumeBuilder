@@ -1,36 +1,50 @@
-**Tshepiso Tlhong**  
-Software Developer  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tshepiso Tlhong – CV</title>
+</head>
+<body>
 
-Phone: +27 658 493 253 | Email: tlhongtshepiso2@gmail.com  
-GitHub: https://github.com/tshepiso | LinkedIn: https://www.linkedin.com/in/tshepiso
+<h1>Tshepiso Tlhong</h1>
+<p>Phone: +27 658493253 | Email: <a href="mailto:tlhongtshepiso2@gmail.com">tlhongtshepiso2@gmail.com</a></p>
+<p>Links: <a href="https://github.com/">GitHub</a> | <a href="https://linkedin.com/">LinkedIn</a></p>
 
----
+<h2>Professional Summary</h2>
+<p>Full‑Stack Developer with a focus on building scalable, maintainable web applications. Experienced in Python, Flask, Django, FastAPI, and React.js, delivering clean, well‑documented code and efficient systems.</p>
 
-### Professional Summary
-Entry‑level Full‑Stack Developer with solid foundations in Java, Python and JavaScript. Delivered a live static site for a non‑profit and a full‑stack banking application, showcasing strong problem‑solving, clean code practices and collaborative teamwork. Adept at Agile‑style development and efficient system design.
+<h2>Technical Skills</h2>
+<ul>
+<li><strong>Programming Languages:</strong> Python, JavaScript, Java</li>
+<li><strong>Databases & SQL:</strong> MySQL, SQLite, NoSQL, Redis (caching)</li>
+<li><strong>Backend Frameworks:</strong> Flask, Django, FastAPI</li>
+<li><strong>Frontend:</strong> React.js, HTML, CSS</li>
+<li><strong>DevOps & Tools:</strong> Git, GitHub, Linux, Debugging, CI/CD (basic)</li>
+<li><strong>Hosting & Deployment:</strong> SA webhost, Render, GitHub Pages</li>
+<li><strong>Soft Skills:</strong> Agile collaboration, version control discipline, stakeholder communication, code review, continuous learning</li>
+</ul>
 
-### Technical Skills
-- **Programming Languages**: Java, Python, JavaScript  
-- **Frameworks & Libraries**: Flask, Django, FastAPI, React.js  
-- **Databases & SQL**: MySQL, SQLite, NoSQL, Redis  
-- **Version Control & DevOps**: Git, GitHub, Linux, CI/CD fundamentals, Debugging tools  
-- **Web Technologies**: HTML, CSS, Responsive Design  
-- **Testing & Debugging**: Unit testing (pytest), Debugging
+<h2>Experience</h2>
+<h3>Full Stack Software Engineer</h3>
+<p>Bank Comparison Application</p>
+<ul>
+<li>Architected a full‑stack banking platform using Flask and MySQL, reducing the time to compare service packages by 40% for test users.</li>
+<li>Developed a React‑based front end that integrated seamlessly with the Flask back end, improving user experience and responsiveness.</li>
+<li>Collaborated within a team of four to implement new features and fix bugs, maintaining 0% merge conflicts through rigorous Git workflow practices.</li>
+</ul>
 
-### Experience
+<h3>Key Projects</h3>
+<h4>Church Website</h4>
+<ul>
+<li>Designed and deployed a responsive static website for a church organization, meeting all stakeholder requirements and achieving 100% mobile responsiveness.</li>
+</ul>
 
-**Full Stack Software Engineer**  
-*Jan 2025 – Present*  
-- **Architected** a bank comparison platform using Python, Flask, React and MySQL, reducing comparison time by 40 % for test users.  
-- **Collaborated** in a 4‑person team following Agile‑style sprints, delivering a comprehensive banking solution with 0 % merge conflicts via disciplined Git workflow.  
-- **Implemented** responsive UI components in React, achieving 100 % mobile responsiveness for the church website project.  
-- **Applied** Java programming principles during code reviews and debugging tasks, ensuring cross‑language code quality and maintainability.
+<h2>Education</h2>
+<ul>
+<li>Software Engineering Diploma, WethinkCode (Expected December 2026)</li>
+<li>Software Engineering Certification, African Leadership X (ALX) – January 2025</li>
+<li>High School, Hoerskool Die Burger</li>
+</ul>
 
-**Key Projects**
-
-- **Church Website (Non‑profit)**  
-  *Developed, deployed and maintained a mobile‑responsive static website that met stakeholder requirements and enhanced online engagement.*
-
-### Education
-
-- **
+</body>
+</html>
