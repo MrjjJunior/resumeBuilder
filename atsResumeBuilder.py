@@ -84,8 +84,9 @@ class ATSResume:
         with open(f"resumes/.logs/{self.date[0]}/{self.companyName}-{self.position}.txt", "w") as file:
             for line in self.newResume:
                 file.writelines(line)
-
-        self.txt2Doc(f"resumes/.logs/{self.date[0]}/{self.companyName}-{self.position}.txt")
+        
+        resume = f"resumes/.logs/{self.date[0]}/{self.companyName}-{self.position}.txt"
+        self.txt2Doc(resume)
 
 
     def txt2Doc(self, resume: str) -> Document:
@@ -108,7 +109,7 @@ class ATSResume:
                 elif line.startswith("<li>"):
                     self.document.add_paragraph(line.replace("<li>", "-").replace("</li>", "").strip())
                 else:
-                    self.document.add_paragraph(line.strip())
+                    continue
         
         self.document.save(f"resumes/{self.date[0]}/{self.companyName}-{self.position}.docx")
 

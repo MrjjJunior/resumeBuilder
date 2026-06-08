@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tshepiso Tlhong – Software Developer</title>
+</head>
+<body>
+    <h1>Tshepiso Tlhong</h1>
+    <p>Phone: +27 658493253 | Email: tlhongtshepiso2@gmail.com</p>
+    <p>Links: <a href="https://github.com/tshepiso">GitHub</a> | <a href="https://linkedin.com/in/tshepiso">LinkedIn</a></p>
+
+    <h2>Professional Summary</h2>
+    <p>2+ years of full‑stack development experience specializing in Python (Flask, Django, FastAPI) and JavaScript (React). Proven ability to design and scale web applications, delivering measurable performance improvements and clean, maintainable code.</p>
+
+    <h2>Technical Skills</h2>
+    <ul>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>Flask</li>
+        <li>Django</li>
+        <li>FastAPI</li>
+        <li>React.js</li>
+        <li>MySQL</li>
+        <li>Redis</li>
+        <li>Git</li>
+    </ul>
+
+    <h2>Experience</h2>
+    <h3>Full Stack Software Engineer</h3>
+    <ul>
+        <li>Designed, developed, and deployed a full‑stack banking comparison platform using Python, Flask, React, and MySQL, reducing package comparison time by 40% for test users.</li>
+        <li>Collaborated with a four‑person team to architect a scalable banking platform, ensuring data consistency and optimal query performance.</li>
+        <li>Maintained version control integrity with Git and GitHub, achieving zero merge conflicts across multiple collaborative sprints.</li>
+        <li>Implemented automated testing and debugging practices to increase code reliability and reduce defect rates.</li>
+    </ul>
+
+    <h3>Key Projects</h3>
+    <ul>
+        <li>Church Website – Developed and launched a fully responsive static website for a non‑profit church, handling stakeholder requirements and ensuring 100% mobile responsiveness.</li>
+    </ul>
+
+    <h2>Education</h2>
+    <ul>
+        <li>Software Engineering Diploma, WethinkCode – Expected December 2026</li>
+        <li>Software Engineering Certification, African Leadership X (ALX) – Completed January 2025</li>
+        <li>High School, Hoerskool Die Burger</li>
+    </ul>
+</body>
+</html>
