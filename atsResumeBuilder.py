@@ -103,7 +103,7 @@ class ATSResume:
                 if line.startswith("<h1>"):
                     self.document.add_heading(line.replace("<h1>", "").replace("</h1>", "").strip(), 1)                     
                 elif line.startswith("<h2>"):
-                    self.document.add_heading(line.replace("<h2>","").relpace("</h2>","").strip(), 1)
+                    self.document.add_heading(line.replace("<h2>","").replace("</h2>","").strip(), 1)
                 elif line.startswith("<p>"):
                     self.document.add_paragraph(line.replace("<p>", "").replace("</p>", "").strip())
                 elif line.startswith("<li>"):

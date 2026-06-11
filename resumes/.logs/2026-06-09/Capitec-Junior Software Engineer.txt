@@ -1,0 +1,36 @@
+**Professional Summary**  
+Full‑stack developer with 3+ years of experience building and maintaining scalable web applications using Python (Flask, FastAPI, Django) and React.js. Proven record of delivering clean, well‑documented code that improves system performance and reduces user wait times. Strong focus on robust testing, continuous maintenance, and efficient scaling of services.
+
+**Technical Skills**  
+- **Programming Languages**: Python, JavaScript, Java  
+- **Frameworks & Libraries**: Flask, Django, FastAPI, React.js, HTML, CSS  
+- **Databases & SQL**: MySQL, SQLite, NoSQL, Redis  
+- **Version Control & Collaboration**: Git, GitHub  
+- **Operating Systems & Tools**: Linux, Debugging, SA webhost, Render, GitHub Pages  
+
+**Experience**
+
+**Full‑Stack Software Engineer**  
+*Developed and maintained high‑performance web applications; led a cross‑functional team of four.*  
+
+- **Designed** a full‑stack bank comparison platform with Flask, React, and MySQL, **reducing package comparison time by 40%** for test users.  
+- **Implemented** comprehensive unit and integration tests for API endpoints and frontend components, **increasing code coverage to 92%** and catching regressions before production.  
+- **Optimized** database queries and schema design in MySQL, **cutting load times by 25%** and improving overall application responsiveness.  
+- **Maintained** version control hygiene via Git and GitHub, **eliminating merge conflicts** and ensuring seamless collaboration across sprints.  
+- **Deployed** the platform to Render and managed continuous delivery pipelines, **supporting rapid scaling** during peak traffic periods.
+
+**Key Projects**
+
+**Church Website**  
+*Full‑stack static site for a non‑profit organization.*  
+
+- **Architected** a responsive site using HTML, CSS, and React, **achieving 100% mobile compatibility** and zero critical bugs reported post‑launch.  
+- **Coordinated** stakeholder requirements and performed end‑to‑end testing, **ensuring feature parity with client expectations**.  
+
+**Education**
+
+- **Software Engineering Diploma**, WethinkCode – Expected Dec 2026  
+- **Software Engineering Certification**, African Leadership X (ALX) – Completed Jan 2025  
+- **High School**, Hoerskool Die Burger  
+
+---

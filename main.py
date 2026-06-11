@@ -5,6 +5,7 @@ from createDoc import Doc
 import os 
 import sys
 
+
 def main():
     directory_path = "resumes/.logs/"
     if os.path.isdir(directory_path) !=  True:
@@ -23,7 +24,7 @@ def main():
             ats.jobListingInfo()
             ats.makeATSResume()
             ats.writeToFile()
-            ats.txt2Doc()
+            # ats.txt2Doc()
 
 
         elif selection == 2:

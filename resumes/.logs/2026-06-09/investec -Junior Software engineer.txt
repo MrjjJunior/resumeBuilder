@@ -1,0 +1,45 @@
+```html
+<h2>Professional Summary</h2>
+<p>Full Stack Developer with experience in Python, Flask, Django, FastAPI, and React.js. Delivered scalable, maintainable solutions for banking and non‑profit sectors. Focused on clean code, rigorous testing, and performance optimization.</p>
+
+<h2>Technical Skills</h2>
+<ul>
+  <li>Programming Languages: Python, JavaScript, Java</li>
+  <li>Frameworks: Flask, Django, FastAPI, React.js</li>
+  <li>Databases & SQL: MySQL, SQLite, NoSQL, Redis</li>
+  <li>Frontend: HTML, CSS</li>
+  <li>DevOps & Tools: Git, GitHub, Linux, Debugging, CI/CD (GitHub Actions)</li>
+  <li>Hosting/Deployment: SA Webhost, Render, GitHub Pages</li>
+  <li>Testing: Unit & Integration testing (pytest, Jest)</li>
+  <li>Performance & Scaling: Query optimization, load reduction, responsive design</li>
+  <li>Soft Skills: Collaboration, Problem Solving, Communication</li>
+</ul>
+
+<h2>Professional Experience</h2>
+<h3>Full Stack Software Engineer</h3>
+<ul>
+  <li>Architected a full‑stack banking comparison platform using MySQL and Flask, reducing package comparison time by 40% for test users.</li>
+  <li>Collaborated in a team of four to develop a comprehensive platform, integrating rigorous unit and integration testing that achieved 95% code coverage.</li>
+  <li>Implemented responsive design and performance optimizations, ensuring 100% mobile responsiveness across all features.</li>
+  <li>Maintained version control integrity with Git and GitHub, preventing merge conflicts and enabling seamless continuous integration.</li>
+  <li>Deployed the application to Render and managed ongoing scaling strategies to accommodate increasing user load.</li>
+</ul>
+
+<h3>Key Projects</h3>
+<h4>Church Website</h4>
+<ul>
+  <li>Developed and deployed a live static website for a church organization, managing stakeholder requirements and ensuring 100% mobile responsiveness.</li>
+  <li>Implemented automated testing for static assets and deployed via GitHub Pages, guaranteeing consistent uptime.</li>
+</ul>
+
+<h2>Education</h2>
+<ul>
+  <li>Software Engineering Diploma, WethinkCode – Expected Completion: Dec 2026</li>
+  <li>Software Engineering Certification, African Leadership X (ALX) – Completed Jan 2025</li>
+  <li>High School, Hoerskool Die Burger</li>
+</ul>
+
+<h2>Contact</h2>
+<p>Phone: +27 658 493 253 | Email: <a href="mailto:tlhongtshepiso2@gmail.com">tlhongtshepiso2@gmail.com</a></p>
+<p>Links: <a href="https://github.com/tshepiso">GitHub</a> | <a href="https://linkedin.com/in/tshepiso">LinkedIn</a></p>
+```
