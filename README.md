@@ -1,4 +1,4 @@
-03/06/2026
-Trying to remove extra spaces when creating a document
 
-use gemini 
+
+## Resources used:
+[How to connect React frontend to fastapi backend](https://testdriven.io/blog/fastapi-react/)
