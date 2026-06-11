@@ -1,0 +1,2 @@
+10 Jul 2026
+doing a quick start of FastAPI
