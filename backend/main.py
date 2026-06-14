@@ -1,10 +1,20 @@
-from start import Start
-from atsResumeBuilder import ATSResume
+from fastapi import FastAPI
+from fastapi.responses import HTMLResponse
+from fastapi.templating import Jinja2Templates
+
+from app.start import Start
+from app.atsResumeBuilder import ATSResume
 from updateResume import UpadateResume
 from createDoc import Doc
 import os 
 import sys
 
+app = FastAPI()
+templates = Jinja2Templates(directory="static/templates")
+
+@app.get("/")
+def home():
+    pass
 
 def main():
     directory_path = "resumes/.logs/"
