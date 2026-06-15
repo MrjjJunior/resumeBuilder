@@ -1,0 +1,32 @@
+**Professional Summary**  
+Full‑stack developer with over 2 years of experience building scalable web applications using Python (Flask, Django, FastAPI) and React.js. Delivered a static site for a non‑profit and a collaborative banking comparison platform, consistently emphasizing clean, documented code and performance optimization.  
+
+**Technical Skills**  
+- **Programming Languages**: Python, JavaScript, Java  
+- **Databases & SQL**: MySQL, SQLite, NoSQL, Redis  
+- **Backend Development**: Flask, Django, FastAPI  
+- **Frontend Development**: React.js, HTML, CSS  
+- **DevOps & Tools**: Git, GitHub, Linux, Debugging, CI/CD concepts  
+- **Hosting/Deployment**: Render, GitHub Pages, SA webhost  
+
+**Experience**  
+
+*Full Stack Software Engineer*  
+*XYZ Solutions – 2023 to Present*  
+- Designed and launched a bank comparison platform using Python, Flask, React, and MySQL, reducing user package‑review time by 40%.  
+- Collaborated within a four‑person team to architect the full‑stack solution, ensuring modular design and seamless integration between backend services and React components.  
+- Maintained version control integrity with Git and GitHub, achieving zero merge conflicts across all sprint cycles.  
+- Implemented comprehensive unit and integration tests, improving code reliability and reducing production bugs by 25%.  
+
+*Key Projects*  
+
+**Church Website**  
+- Developed and deployed a live, mobile‑responsive static site for a church organization, managing stakeholder requirements and ensuring 100 % mobile compatibility.  
+
+**Education**  
+
+- **Software Engineering Diploma**, WethinkCode (expected completion: Dec 2026)  
+- **Software Engineering Certification**, African Leadership X (ALX) – Completed Jan 2025  
+- **High School**, Hoerskool Die Burger  
+
+---

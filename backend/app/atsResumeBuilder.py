@@ -1,12 +1,10 @@
-
 from openai import OpenAI
 from pathlib import Path
-from createDoc import Doc
 from docx import Document
 import os
 import sys
 import datetime as dt
-
+from pathlib import Path
 
 
 class ATSResume:
@@ -68,26 +66,38 @@ class ATSResume:
             model="openai/gpt-oss-20b",
         )
         self.newResume = response.output_text
-        # print(self.newResume)
 
     def writeToFile(self):
         """
         loads content into file and save the file in the root directory.
         """
-        
-        self.date = str(dt.datetime.today()).split(" ")
-        directory = f"resumes/.logs/{self.date[0]}/"
-        if os.path.isdir(directory) !=  True :
-            os.makedirs(os.path.dirname(directory), exist_ok=True)
-            os.makedirs(os.path.dirname(f"resumes/{self.date[0]}/"))
+        APP_DIR = Path(__file__).resolve().parent
+        BACKEND_DIR = APP_DIR.parent
 
-        with open(f"resumes/.logs/{self.date[0]}/{self.companyName}-{self.position}.txt", "w") as file:
+        self.date = str(dt.datetime.today()).split(" ")
+        
+        logs_dir =  f"resumes/.logs/{self.date[0]}"
+        resume_dir =  f"resumes/{self.date[0]}"
+
+        directory = f"/resumes/.logs/{self.date[0]}/"
+        # print(os.path.isdir(logs_dir))
+        # print(os.getcwd())
+        if os.path.isdir(logs_dir) !=  True :
+            os.makedirs(logs_dir, exist_ok=True)
+            # print(os.getcwd())
+            # print(os.path.isdir(logs_dir))
+            os.makedirs(resume_dir, exist_ok=True)
+            print(os.path.isdir(logs_dir))
+            print(os.path.isdir(resume_dir))
+
+        with open(f"{logs_dir}/{self.companyName}-{self.position}.txt", "w") as file:
+            print(os.getcwdb())
+            print(os.getcwdb())
             for line in self.newResume:
                 file.writelines(line)
         
-        resume = f"resumes/.logs/{self.date[0]}/{self.companyName}-{self.position}.txt"
+        resume = f"{logs_dir}/{self.companyName}-{self.position}.txt"
         self.txt2Doc(resume)
-
 
     def txt2Doc(self, resume: str) -> Document:
         """
@@ -111,7 +121,7 @@ class ATSResume:
                 else:
                     continue
         
-        self.document.save(f"resumes/{self.date[0]}/{self.companyName}-{self.position}.docx")
+        self.document.save(f"../resumes/{self.date[0]}/{self.companyName}-{self.position}.docx")
 
     def jobListingInfo(self):
         """
@@ -121,3 +131,4 @@ class ATSResume:
         self.position = input("\tPosition\n\t> ")
         self.description = input("\tDescription\n\t> ")
         self.requirements = input("\tRequirements\n\t> ")
+

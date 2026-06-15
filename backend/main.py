@@ -4,8 +4,7 @@ from fastapi.templating import Jinja2Templates
 
 from app.start import Start
 from app.atsResumeBuilder import ATSResume
-from updateResume import UpadateResume
-from createDoc import Doc
+from app.updateResume import UpadateResume
 import os 
 import sys
 
@@ -21,8 +20,6 @@ def main():
     if os.path.isdir(directory_path) !=  True:
         os.makedirs(os.path.dirname(directory_path), exist_ok=True)
     
-
-
     try:
         start = Start()
         selection = start.startMenu()
@@ -34,7 +31,6 @@ def main():
             ats.jobListingInfo()
             ats.makeATSResume()
             ats.writeToFile()
-            # ats.txt2Doc()
 
 
         elif selection == 2:

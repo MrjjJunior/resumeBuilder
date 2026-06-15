@@ -1,0 +1,38 @@
+<h1>Tshepiso Tlhong – Software Developer</h1>
+<p>Phone: +27 658493253 | Email: <a href="mailto:tlhongtshepiso2@gmail.com">tlhongtshepiso2@gmail.com</a><br>
+GitHub | LinkedIn</p>
+
+<h2>Professional Summary</h2>
+<p>Full‑stack developer with 2+ years of experience building and maintaining web applications. Proficient in Python (Flask, Django, FastAPI) and React.js, with a strong focus on clean, documented code and system efficiency. Demonstrated ability to scale solutions to accommodate growing user bases.</p>
+
+<h2>Technical Skills</h2>
+<ul>
+  <li>Programming Languages: Python, JavaScript, Java</li>
+  <li>Frameworks & Libraries: Flask, Django, FastAPI, React.js</li>
+  <li>Databases: MySQL, SQLite, NoSQL, Redis</li>
+  <li>Frontend: HTML, CSS</li>
+  <li>DevOps & Tools: Git, GitHub, Linux, Debugging</li>
+  <li>Hosting/Deployment: SA webhost, Render, GitHub Pages</li>
+</ul>
+
+<h2>Professional Experience</h2>
+<h3>Full Stack Software Engineer</h3>
+<ul>
+  <li>Designed and implemented a bank comparison platform using Python, Flask, React, and MySQL, improving package comparison efficiency by 40% for test users.</li>
+  <li>Collaborated with a 4‑person team to develop a comprehensive banking solution, ensuring seamless integration across backend and frontend components.</li>
+  <li>Maintained rigorous version control with Git and GitHub, achieving zero merge conflicts throughout iterative development cycles.</li>
+  <li>Optimized database queries and performed routine testing, ensuring application stability during peak usage scenarios.</li>
+</ul>
+
+<h3>Key Projects</h3>
+<h4>Church Website</h4>
+<ul>
+  <li>Developed and launched a fully responsive static website for a church organization, meeting stakeholder requirements and ensuring 100% mobile compatibility.</li>
+</ul>
+
+<h2>Education</h2>
+<ul>
+  <li>Software Engineering Diploma, WethinkCode – Expected completion: Dec 2026</li>
+  <li>Software Engineering Certification, African Leadership X (ALX) – Completed Jan 2025</li>
+  <li>High School Diploma, Hoerskool Die Burger</li>
+</ul>

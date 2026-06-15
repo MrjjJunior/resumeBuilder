@@ -1,0 +1,43 @@
+<html>
+  <body>
+    <h1>Tshepiso Tlhong</h1>
+    <p>Software Developer – Phone: +27 658493253 | Email: <a href="mailto:tlhongtshepiso2@gmail.com">tlhongtshepiso2@gmail.com</a></p>
+    <p>Links: <a href="https://github.com/yourgithub">GitHub</a> | <a href="https://linkedin.com/in/yourlinkedin">LinkedIn</a></p>
+
+    <h2>Professional Summary</h2>
+    <p>2+ years of experience as a Full‑Stack Developer specializing in Python (Flask, Django, FastAPI) and React.js. Proven track record of delivering maintainable, high‑performance web applications with strong focus on code quality, testing, and continuous integration.</p>
+
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>Programming Languages: Python, JavaScript, Java</li>
+      <li>Frameworks & Libraries: Flask, Django, FastAPI, React.js</li>
+      <li>Databases: MySQL, SQLite, NoSQL, Redis</li>
+      <li>Version Control & CI/CD: Git, GitHub, Linux</li>
+      <li>Testing & Debugging: Unit testing, debugging, code review</li>
+      <li>Deployment: SA Webhost, Render, GitHub Pages</li>
+      <li>Soft Skills: Collaboration, problem solving, documentation, stakeholder communication</li>
+    </ul>
+
+    <h2>Professional Experience</h2>
+    <h3>Full Stack Software Engineer</h3>
+    <ul>
+      <li>Architected and maintained a full‑stack banking platform with Flask and MySQL, reducing comparison time by 40% and improving data consistency.</li>
+      <li>Developed and deployed a React‑based Bank Comparison App, integrating RESTful APIs and ensuring responsive design across devices.</li>
+      <li>Implemented rigorous debugging and unit testing procedures, achieving 0% merge conflicts across sprint cycles and enhancing code reliability.</li>
+      <li>Co‑operated with a four‑member team to refine functional requirements, conduct code reviews, and enforce coding standards, resulting in a cohesive, maintainable codebase.</li>
+    </ul>
+
+    <h3>Key Project: Church Website</h3>
+    <ul>
+      <li>Designed and launched a static, mobile‑responsive website for a church organization, managing stakeholder requirements and ensuring 100% cross‑browser compatibility.</li>
+      <li>Optimized asset loading and performed comprehensive cross‑device testing, reducing page load times by 25%.</li>
+    </ul>
+
+    <h2>Education</h2>
+    <ul>
+      <li>Software Engineering Diploma, WethinkCode – Expected Completion: Dec 2026</li>
+      <li>Software Engineering Certification, African Leadership X (ALX) – Completed Jan 2025</li>
+      <li>High School Diploma, Hoerskool Die Burger</li>
+    </ul>
+  </body>
+</html>

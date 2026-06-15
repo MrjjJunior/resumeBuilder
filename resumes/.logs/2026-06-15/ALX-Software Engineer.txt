@@ -1,0 +1,51 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tshepiso Tlhong – CV</title>
+</head>
+<body>
+
+<h2>Contact Information</h2>
+<p>Tshepiso Tlhong | Phone: +27 658493253 | Email: <a href="mailto:tlhongtshepiso2@gmail.com">tlhongtshepiso2@gmail.com</a><br>
+GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a> | LinkedIn: <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
+
+<h2>Professional Summary</h2>
+<p>Full‑Stack Developer with 1+ year of experience building scalable web applications using Python (Flask, Django, FastAPI) and React.js. Proven ability to deliver clean, documented code, optimize databases, and reduce feature development time by up to 40%. Strong collaborator with a focus on performance, cloud readiness, and continuous delivery.</p>
+
+<h2>Technical Skills</h2>
+<ul>
+  <li>Programming Languages: Python, JavaScript, Java</li>
+  <li>Frameworks & Libraries: Flask, Django, FastAPI, React.js</li>
+  <li>Databases: MySQL, SQLite, NoSQL, Redis</li>
+  <li>DevOps & Tools: Git, GitHub, Linux, Docker, CI/CD pipelines, AWS (basic)</li>
+  <li>Hosting & Deployment: Render, GitHub Pages, SA Webhost, AWS EC2/Elastic Beanstalk</li>
+  <li>Other: Performance Optimization, Scalability, Debugging, Agile Collaboration, Documentation</li>
+</ul>
+
+<h2>Professional Experience</h2>
+<h3>Full Stack Software Engineer</h3>
+<ul>
+  <li>Architected a full‑stack banking comparison platform with Flask, React, and MySQL, reducing package comparison time by 40% for beta users.</li>
+  <li>Led a 4‑member team to deliver the platform within 6 weeks, coordinating sprint planning, code reviews, and integration testing.</li>
+  <li>Implemented database indexing and query optimization, boosting read performance by 30% and lowering latency during peak load.</li>
+  <li>Maintained Git version control, achieving 0% merge conflicts across all collaborative sprints and ensuring continuous integration via GitHub Actions.</li>
+  <li>Deployed the application to Render with automated rollback on failure, ensuring 99.9% uptime during launch.</li>
+</ul>
+
+<h3>Key Projects</h3>
+<ul>
+  <li><strong>Church Website</strong> – Designed and deployed a responsive static site for a non‑profit organization. Managed stakeholder requirements and achieved 100% mobile responsiveness.</li>
+</ul>
+
+<h2>Education</h2>
+<ul>
+  <li>Software Engineering Diploma – WethinkCode (Expected Dec 2026)</li>
+  <li>Software Engineering Certification – African Leadership X (ALX) – Completed Jan 2025</li>
+  <li>High School – Hoërskool Die Burger</li>
+</ul>
+
+</body>
+</html>
+```
