@@ -5,15 +5,27 @@ from fastapi.templating import Jinja2Templates
 from app.start import Start
 from app.atsResumeBuilder import ATSResume
 from app.updateResume import UpadateResume
+
+from pathlib import Path
+
 import os 
 import sys
+
 
 app = FastAPI()
 templates = Jinja2Templates(directory="static/templates")
 
 @app.get("/")
 def home():
-    pass
+    return {"message": "Home"}
+
+@app.get("/resumes")
+def getResumes():
+    resumes = Path("resumes")
+
+    view  = []
+
+    return resumes
 
 def main():
     directory_path = "resumes/.logs/"
