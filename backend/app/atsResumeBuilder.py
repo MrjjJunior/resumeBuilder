@@ -71,23 +71,21 @@ class ATSResume:
         """
         loads content into file and save the file in the root directory.
         """
-        APP_DIR = Path(__file__).resolve().parent
-        BACKEND_DIR = APP_DIR.parent
+        self.APP_DIR = Path(__file__).resolve().parent
+        self.BACKEND_DIR = self.APP_DIR.parent
 
         self.date = str(dt.datetime.today()).split(" ")
         
-        logs_dir =  f"../resumes/.logs/{self.date[0]}"
-        resume_dir =  f"../resumes/{self.date[0]}"
+        logs_dir =  f"{self.BACKEND_DIR}/resumes/.logs/{self.date[0]}"
+        resume_dir =  f"{self.BACKEND_DIR}/resumes/{self.date[0]}"
 
         directory = f"/resumes/.logs/{self.date[0]}/"
 
         if os.path.isdir(logs_dir) !=  True :
             os.makedirs(logs_dir, exist_ok=True)
-
             os.makedirs(resume_dir, exist_ok=True)
 
         with open(f"{logs_dir}/{self.companyName}-{self.position}.txt", "w") as file:
-
             for line in self.newResume:
                 file.writelines(line)
         
@@ -116,7 +114,7 @@ class ATSResume:
                 else:
                     continue
         
-        self.document.save(f"../resumes/{self.date[0]}/{self.companyName}-{self.position}.docx")
+        self.document.save(f"{self.BACKEND_DIR}/resumes/{self.date[0]}/{self.companyName}-{self.position}.docx")
 
     def jobListingInfo(self):
         """

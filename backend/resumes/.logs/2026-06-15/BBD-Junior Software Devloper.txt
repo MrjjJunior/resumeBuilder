@@ -1,0 +1,36 @@
+**Professional Summary**  
+Full Stack Developer with proven expertise in Python, FastAPI, Flask, Django, and React.js, delivering efficient, scalable web solutions. Experienced in architecting database‑driven applications and optimizing performance to reduce processing time by up to 40 %. Strong focus on clean, documented code, version control best practices, and cross‑functional collaboration.
+
+**Technical Skills**  
+- **Programming Languages:** Python, JavaScript, Java  
+- **Backend Frameworks:** FastAPI, Flask, Django  
+- **Frontend:** React.js, HTML, CSS  
+- **Databases & Caching:** MySQL, SQLite, NoSQL, Redis  
+- **DevOps & Tools:** Git, GitHub, Linux  
+- **Hosting/Deployment:** SA webhost, Render, GitHub Pages  
+- **Soft Skills:** Collaboration, Communication, Problem‑solving  
+
+**Experience**  
+
+**Full Stack Software Engineer**  
+*Company Name Unspecified* – Dates Unspecified  
+- Designed and developed a bank comparison platform using Python, Flask, React, and MySQL, delivering a 40 % reduction in user onboarding time.  
+- Orchestrated a collaborative team of four to integrate front‑end and back‑end components, ensuring seamless data flow and user experience.  
+- Implemented rigorous version control practices with Git and GitHub, achieving zero merge conflicts throughout the development cycle.  
+- Conducted performance profiling and refactoring of database queries, improving load times and overall system responsiveness.  
+
+**Key Projects**  
+
+**Church Website**  
+- Spearheaded the development and deployment of a fully responsive static website for a church organization, meeting stakeholder specifications and ensuring 100 % mobile compatibility.  
+
+**Education**  
+
+- Software Engineering Diploma, WethinkCode – Expected Dec 2026  
+- Software Engineering Certification, African Leadership X (ALX) – Jan 2025  
+- High School, Hoerskool Die Burger  
+
+**Contact**  
+Phone: +27 658 493 253  
+Email: tlhongtshepiso2@gmail.com  
+GitHub | LinkedIn  

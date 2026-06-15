@@ -1,0 +1,75 @@
+<html>
+  <body>
+    <h2>Professional Summary</h2>
+    <p>
+      Seasoned Full Stack Developer with a proven record of building and scaling
+      web applications using Python (FastAPI, Flask), React.js, and MySQL. Demonstrated
+      ability to design clean, testable code, optimize performance, and collaborate
+      in cross‑functional teams to deliver efficient, maintainable solutions.
+    </p>
+
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>Programming Languages: Python, JavaScript, Java</li>
+      <li>Frameworks & Libraries: FastAPI, Flask, Django, React.js</li>
+      <li>Databases & Data Stores: MySQL, SQLite, NoSQL, Redis</li>
+      <li>Frontend: HTML, CSS, Responsive Design</li>
+      <li>Testing & Quality: Unit Testing, Debugging, Code Review</li>
+      <li>Performance & Scaling: Database Optimization, Load Reduction, Caching</li>
+      <li>Version Control & Collaboration: Git, GitHub</li>
+      <li>Operating Systems: Linux</li>
+      <li>Deployment: Render, GitHub Pages, SA Webhost</li>
+    </ul>
+
+    <h2>Professional Experience</h2>
+    <h3>Full Stack Software Engineer</h3>
+    <p>Bank Comparison Application – <em>Full Stack Web Development</em></p>
+    <ul>
+      <li>
+        Designed and implemented a scalable banking comparison platform using Python
+        Flask, React.js, and MySQL, which reduced package comparison time by 40%
+        for test users.
+      </li>
+      <li>
+        Integrated automated unit tests and continuous integration workflows
+        (GitHub Actions) to ensure code quality and reduce regression incidents.
+      </li>
+      <li>
+        Optimized database queries and employed caching strategies (Redis) that
+        lowered response latency by 30%, supporting higher concurrent user loads.
+      </li>
+      <li>
+        Maintained rigorous version control practices, achieving zero merge conflicts
+        across all collaborative sprints and enabling rapid feature delivery.
+      </li>
+    </ul>
+
+    <h2>Key Projects</h2>
+    <h3>Church Website – Static Site</h3>
+    <ul>
+      <li>
+        Built and launched a mobile‑responsive static website for a church
+        organization, managing stakeholder requirements from concept to deployment
+        on GitHub Pages.
+      </li>
+      <li>
+        Implemented performance optimizations (image compression, lazy loading) to
+        ensure fast load times across devices.
+      </li>
+    </ul>
+
+    <h2>Education</h2>
+    <ul>
+      <li>
+        Software Engineering Diploma, WethinkCode – Expected Completion: Dec 2026
+      </li>
+      <li>
+        Software Engineering Certification, African Leadership X (ALX) – Completed
+        Jan 2025
+      </li>
+      <li>
+        High School, Hoerskool Die Burger
+      </li>
+    </ul>
+  </body>
+</html>
