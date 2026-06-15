@@ -1,0 +1,36 @@
+```html
+<h2>Professional Summary</h2>
+<p>Full Stack Developer with 2 years of experience building and scaling web applications. Expert in Python (FastAPI, Flask, Django) and React.js, delivering clean, maintainable code and measurable performance gains. Skilled at debugging, database optimization, and efficient version control.</p>
+
+<h2>Technical Skills</h2>
+<ul>
+  <li>Programming Languages: Python, JavaScript, Java</li>
+  <li>Frameworks & Libraries: FastAPI, Flask, Django, React.js</li>
+  <li>Databases & SQL: MySQL, SQLite, NoSQL, Redis</li>
+  <li>Frontend: HTML, CSS</li>
+  <li>DevOps & Tools: Git, GitHub, Linux, Debugging, CI/CD</li>
+  <li>Hosting & Deployment: SA webhost, Render, GitHub Pages</li>
+</ul>
+
+<h2>Experience</h2>
+<h3>Full Stack Software Engineer</h3>
+<ul>
+  <li>Architected a full‑stack banking platform using Flask and MySQL, reducing package‑comparison time by 40% for test users.</li>
+  <li>Collaborated with a 4‑member team to develop and launch a comprehensive Bank Comparison App, delivering features on schedule with zero merge conflicts.</li>
+  <li>Implemented rigorous unit and integration tests, improving code quality and reliability across the application.</li>
+  <li>Maintained version control integrity with Git/GitHub, ensuring seamless continuous integration and deployment.</li>
+</ul>
+
+<h2>Key Projects</h2>
+<h3>Church Website</h3>
+<ul>
+  <li>Designed and deployed a responsive static site for a church organization, meeting stakeholder requirements and achieving 100% mobile compatibility.</li>
+</ul>
+
+<h2>Education</h2>
+<ul>
+  <li>Software Engineering Diploma, WethinkCode (Expected Dec 2026)</li>
+  <li>Software Engineering Certification, African Leadership X (ALX) – Jan 2025</li>
+  <li>High School, Hoerskool Die Burger</li>
+</ul>
+```

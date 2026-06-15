@@ -76,23 +76,18 @@ class ATSResume:
 
         self.date = str(dt.datetime.today()).split(" ")
         
-        logs_dir =  f"resumes/.logs/{self.date[0]}"
-        resume_dir =  f"resumes/{self.date[0]}"
+        logs_dir =  f"../resumes/.logs/{self.date[0]}"
+        resume_dir =  f"../resumes/{self.date[0]}"
 
         directory = f"/resumes/.logs/{self.date[0]}/"
-        # print(os.path.isdir(logs_dir))
-        # print(os.getcwd())
+
         if os.path.isdir(logs_dir) !=  True :
             os.makedirs(logs_dir, exist_ok=True)
-            # print(os.getcwd())
-            # print(os.path.isdir(logs_dir))
+
             os.makedirs(resume_dir, exist_ok=True)
-            print(os.path.isdir(logs_dir))
-            print(os.path.isdir(resume_dir))
 
         with open(f"{logs_dir}/{self.companyName}-{self.position}.txt", "w") as file:
-            print(os.getcwdb())
-            print(os.getcwdb())
+
             for line in self.newResume:
                 file.writelines(line)
         
