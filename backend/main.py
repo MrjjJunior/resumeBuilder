@@ -22,10 +22,8 @@ def home():
 @app.get("/resumes")
 def getResumes():
     resumes = Path("resumes")
-
-    view  = []
-
-    return resumes
+    for file in resumes:
+        print(file)
 
 def main():
     directory_path = "resumes/.logs/"
@@ -63,4 +61,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    #main()
+    getResumes()
