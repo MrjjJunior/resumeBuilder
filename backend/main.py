@@ -10,6 +10,7 @@ from pathlib import Path
 
 import os 
 import sys
+import re
 
 
 app = FastAPI()
@@ -22,8 +23,19 @@ def home():
 @app.get("/resumes")
 def getResumes():
     resumes = Path("resumes")
-    for file in resumes:
-        print(file)
+
+    cv = {}
+
+    # for date in resumes.iterdir():
+    #     print(date)
+
+    for root, dirs, files in os.walk(resumes):
+        if root.startswith("resumes/2"):
+           for file in files:
+               cv[root[8:]] = file
+    
+    return cv
+
 
 def main():
     directory_path = "resumes/.logs/"
