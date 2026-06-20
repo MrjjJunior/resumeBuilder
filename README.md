@@ -8,6 +8,8 @@ Return the list of resume as dictionary to access through fastAPI
 Intgrate a data base so users can access from any machine
 authenicate and authorisation implementation
 
+create a frontend using react. 
+
 ## Journal
 Saving every cv in local drive is redandant, but I'm hoping users use every single resume. But I i also want them in a database. So I have to finish the local saves than move to data base.
 
