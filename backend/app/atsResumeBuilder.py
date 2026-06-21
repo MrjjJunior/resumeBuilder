@@ -5,6 +5,7 @@ import os
 import sys
 import datetime as dt
 from pathlib import Path
+from docParser import texToDocx
 
 
 class ATSResume:
