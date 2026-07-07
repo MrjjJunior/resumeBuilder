@@ -18,3 +18,5 @@ I'll have to put .logs in a different directory.
 In get resume I am using os.walk(), my root is a string and dirs and files are a list
 
 the /resumes endpoints does return resumes. but there are some flaws
+
+Man I have to get back to this.
